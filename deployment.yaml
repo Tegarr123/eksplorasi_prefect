@@ -1,0 +1,6 @@
+deployments:
+  - name: deployment_1
+    entrypoint: main.py:mnist_workflow_ml
+    parameters:
+      n_epochs: 10
+      lr: 0.001
